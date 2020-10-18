@@ -1,0 +1,115 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+div {
+  height: 37vh;
+  color: white;
+  line-height: 2.5rem;
+  font-size: 1.6rem;
+  padding: 2.5rem;
+}
+
+h2 {
+  color: rgb(43, 179, 177);
+  padding: 0.5rem 0 2rem 0;
+}
+
+.perMonth {
+  font-size: 3rem;
+}
+
+span {
+  font-size: 1.5rem;
+  height: 3.2rem;
+  display: inline-block;
+  vertical-align: middle;
+  color: rgb(82, 207, 204);
+}
+
+.perDay {
+  padding-top: 1rem;
+  color: rgb(149, 218, 217);
+}
+
+ul {
+  list-style: none;
+  font-size: 1.45rem;
+  color: rgb(149, 218, 217);
+}
+
+h3 {
+  padding-bottom: 1.8rem;
+}
+
+.community h3 {
+  color: rgb(191, 223, 50);
+}
+
+.community p {
+  color: rgb(208, 211, 217);
+  font-size: 1.5rem;
+}
+
+.subscribe {
+  background-color: rgb(43, 179, 177);
+}
+
+.whyUs {
+  background-color: rgb(74, 190, 189);
+  line-height: 2rem;
+}
+
+button {
+  background-color: rgb(191, 223, 50);
+  border: none;
+  color: white;
+  width: 60vw;
+  height: 5rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 6px;
+  margin-top: 3rem;
+  box-shadow: 1px 1px gray, -1px 1px gray;
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  body {
+    height: 100vh;
+  }
+
+  .community {
+    height: 50vh;
+    width: 65%;
+  }
+
+  .community p {
+    line-height: 3rem;
+  }
+
+  .subscribe {
+    height: 50vh;
+    width: 50%;
+    float: left;
+  }
+
+  .whyUs {
+    height: 50vh;
+    width: 50%;
+    float: left;
+  }
+
+  button {
+    width: 28vw;
+  }
+}
