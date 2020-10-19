@@ -125,6 +125,7 @@ button {
 
   div {
     font-size: 2rem;
+    padding: 4rem;
   }
 
   .community {
@@ -149,6 +150,10 @@ button {
     width: 50%;
     float: left;
     line-height: 2.5rem;
+  }
+
+  li {
+    font-size: 1.6rem;
   }
 
   button {
