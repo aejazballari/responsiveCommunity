@@ -113,3 +113,45 @@ button {
     width: 28vw;
   }
 }
+
+@media screen and (min-width: 1366px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  body {
+    height: 100vh;
+  }
+
+  div {
+    font-size: 2rem;
+  }
+
+  .community {
+    height: 45vh;
+    width: 47%;
+  }
+
+  .community p {
+    line-height: 3rem;
+    font-size: 2rem;
+  }
+
+  .subscribe {
+    height: 55vh;
+    width: 50%;
+    float: left;
+    line-height: 3.3rem;
+  }
+
+  .whyUs {
+    height: 55vh;
+    width: 50%;
+    float: left;
+    line-height: 2.5rem;
+  }
+
+  button {
+    width: 20vw;
+  }
+}
